@@ -10,3 +10,10 @@ The repo includes code that is used in DCASE challenge of acoustic anomaly detec
 # Data
 The experiment data and results of submissions are available
 https://dcase.community/challenge2020/task-unsupervised-detection-of-anomalous-sounds
+
+# Usage
+1. Download the data.
+2. Revise the data root in param.yaml
+3. python compute_mfcc_dataset.py
+4. python predict_kl.py (or predict_kl2.py, or predict_kl3.py)
+5. python evaluate.py
